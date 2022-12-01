@@ -1,0 +1,120 @@
+* {
+width: 100%;
+background-color: #2b2d2f;
+margin: 0;
+padding: 0;
+top: 0;
+left: 0;
+}
+.header-container {
+    max-width: 1400px;
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: black;
+}
+.head-name {
+    color: red;
+    font-size: 40px;
+    padding-left: 0px;
+    background-color: black;
+}
+.navigation {
+    width: 100%;
+    background: gray;
+}
+.nav-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 0;
+}
+.nav-items {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: none;
+}
+.nav-items li {
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: gray;
+}
+.nav-items a {
+    color: black;
+    text-decoration: none;
+    background-color: gray;
+}
+
+.nav-items a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-container {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+#logo {
+    background-color: black;
+}
+#logo img {
+    max-width: 150px;
+    background-color: black;
+}
+.section0-container {
+    max-width: 1400px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.section0-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+}
+.section0-img img {
+    width: 100%;
+    height: 470px;
+}
+.section0-text-container p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: gray;
+}
+.section0-text-container h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: gray;
+}
+.btn {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    background-color: black;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
