@@ -185,8 +185,8 @@ left: 0;
     align-items: center;
     justify-content: center;
     background-color: darkgray;
-    min-width: 427px;
-    min-height: 845px;
+    min-width: 427px !important;
+    min-height: 845px !important;
 }
 .box {
     background-color: darkgray;
