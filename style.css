@@ -151,6 +151,7 @@ left: 0;
     text-align: center;
 }
 .section1-container, .section3-container {
+    width: 100%;
     max-width: 1400px;
     height: 100%;
     margin: auto;
@@ -185,9 +186,12 @@ left: 0;
     align-items: center;
     justify-content: center;
     background-color: darkgray;
-    min-width: 427px !important;
-    min-height: 845px !important;
+    text-align: center;
 }
+/* .section1-boxes img,.section3-boxes img {
+    width: 100%;
+    max-width: 200px;
+} */
 .box {
     background-color: darkgray;
     width: calc(33% - 20px);
