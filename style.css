@@ -225,6 +225,9 @@ left: 0;
         font-size: 12px;
         padding: 10px 10px;
     }
+    .li-4 {
+        padding-right: 0 !important;
+    }
     .section0-container, .section2-container {
         width: 100%;
         max-width: 1400px;
