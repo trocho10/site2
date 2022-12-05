@@ -221,6 +221,10 @@ left: 0;
     * {
         width: 100%;
     }
+    .nav-items li {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
     .section0-container, .section2-container {
         width: 100%;
         max-width: 1400px;
