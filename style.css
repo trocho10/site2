@@ -109,10 +109,12 @@ left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
-    text-align: left;
+    align-items: center;
+    text-align: center;
     background-color: gray;
     padding-left: 5%;
+    max-width: 450px;
+    padding-right: 5%;
 }
 .section0-img img {
     width: 100%;
@@ -148,7 +150,50 @@ left: 0;
     border-radius: 20px;
     text-align: center;
 }
-.section1-container {
+.section1-container, .section3-container {
+    max-width: 1400px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: darkgray;
+}
+.section1-text-container, .section3-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    background-color: darkgray;
+}
+.section1-text-container h2, .section3-text-container h2{
+    padding-bottom: 40px;
+    background-color: darkgray;
+}
+.section1-text-container p, .section3-text-container p {
+    background-color: darkgray;
+}
+.section1-boxes, .section3-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    min-width: 427px;
+    min-height: 845px;
+}
+.box {
+    background-color: darkgray;
+    width: calc(33% - 20px);
+    padding: 0px 20px;
+}
+.section2-container {
     max-width: 1400px;
     height: 100%;
     margin: auto;
@@ -156,21 +201,34 @@ left: 0;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: gray;
 }
-.section1-text-container {
+.section2-text-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 50px;
+    background-color: gray;
+    padding-left: 5%;
+    max-width: 450px;
+    padding-right: 5%;
+}
+.section2-text-container p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: gray;
+}
+.section2-text-container h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: gray;
+}
+.section2-text-container h3 {
+    color: white;
+    background-color: gray;
     padding-bottom: 50px;
-    background-color: darkgray;
-}
-.section1-text-container h2 {
-    padding-bottom: 40px;
-    background-color: darkgray;
-}
-.section1-text-container p {
-    background-color: darkgray;
+    font-size: 24px;
 }
