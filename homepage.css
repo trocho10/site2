@@ -17,11 +17,18 @@
         align-items: center;
         justify-content: center;
     }
+        .img-section-text{
+        width: 90%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
     .img-section-text h1 {
+        width: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .img-section-text p {
+        width: 100%;
         padding-bottom: 10px;
     }
     .section1-head-text h2 {
