@@ -9,6 +9,28 @@
     justify-content: center;
     background-color: darkgray;
 }
+@media (max-width: 690px) {
+    .section0-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-section-text h1 {
+        padding-top: 10px;
+        padding-bottom: 10px !important;
+    }
+    .img-section-text p {
+        padding-bottom: 10px;
+    }
+    .section1-head-text h2 {
+        font-size: 25px;
+    }
+    .img-boxes {
+        display: flex;
+        flex-direction: column !important;
+    }
+}
 .img-section-text {
     width: 100%;
     display: flex;
