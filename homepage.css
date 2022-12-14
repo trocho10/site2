@@ -17,6 +17,14 @@
         align-items: center;
         justify-content: center;
     }
+    .mobile-text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section0-text h1, .section2-text h1 {
+        padding-bottom: 10px !important;
+    }
     .head-text {
         padding-left: 0;
         padding-bottom: 10px;
