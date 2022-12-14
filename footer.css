@@ -10,7 +10,6 @@
 }
 .footer-contact {
     color: white;
-    margin-left: 50px;
     font-size: 20px;
 }
 .footer-logo img {
@@ -18,8 +17,12 @@
 }
 .img-footer-container img {
     max-width: 400px;
-    margin-right: 20px;
 }
+@media (min-width: 692px) {
+    .footer-name, .footer-address, .footer-number {
+        padding-left: 20px;
+    }
+}    
 .img-footer-container, .footer-logo-container {
     display: flex;
     align-items: center;
